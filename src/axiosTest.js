@@ -7,7 +7,8 @@ class AxiosTest extends React.Component {
         // .get('http://localhost:9090/ajax/test?data=test')//STS에서 만들어둔 주소.
         // .get('http://yts-proxy.now.sh/list_movies.json') //통신성공
         //package.json에서 proxy 추가 후
-        .get('/ajax/test?data=test')//STS에서 만들어둔 주소.
+        // .get('/ajax/test?data=test')//STS에서 만들어둔 주소.
+        .get('/ajax/boardList')
         .then((res) =>{
             console.log('통신성공');
             console.log(res);
